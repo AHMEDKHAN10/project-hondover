@@ -1,0 +1,37 @@
+{
+  "name": "trackme",
+  "version": "1.0.0",
+  "description": "A web interface to view TrackMe data",
+  "main": " server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "M Ahmed Khan",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "install": "^0.13.0",
+    "mongoose": "^5.7.1",
+    "now": "^16.2.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "plotly": "^1.0.6",
+    "plotly.js-dist": "^1.49.4",
+    "push.js": "^1.0.12",
+    "pusher": "^2.2.2",
+    "web-push": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "facebook": {
+    "app_id": "400174664000881",
+    "app_secret": "92c007f250a16ba65dd316b89fbb2434",
+    "callback": "http://localhost:4000/auth/facebook/callback"
+  }
+}
